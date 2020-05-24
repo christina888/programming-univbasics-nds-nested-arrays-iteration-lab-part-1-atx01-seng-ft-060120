@@ -11,7 +11,7 @@ def find_even_values(src)
       end
       row_counter +=1 
     end
-    p even_array
+    even_array
   end
 
 
