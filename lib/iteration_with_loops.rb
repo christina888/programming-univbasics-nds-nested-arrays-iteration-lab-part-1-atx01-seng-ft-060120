@@ -8,10 +8,9 @@ even_array = []
         even_array.push(src[row_index][element_index]) 
     end
     element_index += 1
-    
-end
+  end
   row_counter +=1 
-end
+  end
 end
 
 
