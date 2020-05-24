@@ -11,7 +11,7 @@ even_array = []
       end
       row_counter +=1 
     end
-    return even_array
+    even_array
   end
 
 
