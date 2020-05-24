@@ -7,12 +7,12 @@ def find_even_values(src)
       if src[row_counter][element_index] % 2 == 0
        even_array << src[row_counter][element_index] 
       end
-      element_index += 1
+        element_index += 1
       end
       row_counter +=1 
     end
-    p even_array
-  end
+  p even_array
+end
 
 
  # Given an Array of Arrays of Integers ( 
