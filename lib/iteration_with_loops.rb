@@ -5,7 +5,7 @@ def find_even_values(src)
     element_index = 0 
     while element_index < src[row_index].count do
       if src[row_counter][element_index].even?
-        even_array.push(src[row_counter][element_index]) 
+        even_array.push(src[row_index][element_index]) 
         element_index += 1
     end
     row_counter +=1 
