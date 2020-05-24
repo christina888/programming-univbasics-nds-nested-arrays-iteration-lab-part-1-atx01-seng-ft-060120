@@ -3,8 +3,8 @@ def find_even_values(src)
   even_array = []
   while row_counter < src.count do
     element_index = 0 
-    while element_index < (src[row_counter] % 2 == 0) do
-      if src[row_counter][element_index].even?
+    while element_index < src[row_counter]  do
+      if src[row_counter][element_index] % 2 == 0
        even_array << src[row_counter][element_index] 
       end
       element_index += 1
