@@ -1,6 +1,5 @@
-row_counter = 0
-
 def find_even_values(src)
+row_counter = 0
 even_array = []
   while row_counter < src.count do
     element_index = 0 
