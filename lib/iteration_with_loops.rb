@@ -5,7 +5,7 @@ even_array = []
     element_index = 0 
     while element_index < src[row_counter].count do
       if src[row_counter][element_index].even?
-        even_array << (src[row_index][element_index]) 
+        even_array << src[row_index][element_index] 
       end
       element_index += 1
       end
