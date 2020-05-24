@@ -10,7 +10,6 @@ row_counter = 0
       end
       row_counter +=1 
     end
-    even_array
   end
 
 
