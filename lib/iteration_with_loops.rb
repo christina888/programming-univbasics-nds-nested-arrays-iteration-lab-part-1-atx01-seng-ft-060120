@@ -6,12 +6,12 @@ even_array = []
     while element_index < src[row_counter].count do
       if src[row_counter][element_index] % 2 == 0
         even_array.push(src[row_index][element_index]) 
+      end
+      element_index += 1
+      end
+      row_counter +=1 
     end
-    element_index += 1
   end
-  row_counter +=1 
-  end
-end
 
 
  # Given an Array of Arrays of Integers ( 
