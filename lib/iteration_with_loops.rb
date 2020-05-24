@@ -1,9 +1,9 @@
 def find_even_values(src)
   row_counter = 0
   even_array = []
-  while row_counter < src.count do
+  while row_counter < src.length do
     element_index = 0 
-    while element_index < src[row_counter] do
+    while element_index < src[row_counter].length do
       if src[row_counter][element_index].even?
        even_array << src[row_counter][element_index] 
       end
